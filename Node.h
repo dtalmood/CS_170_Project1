@@ -13,7 +13,7 @@ public:
     void setData(int theData) { data = theData; }
     void setPreviousLink(Node *pointer) { previousLink = pointer; }
     void setNextLink(Node *pointer) { nextLink = pointer; }
-    ~Node()
+    ~Node();
     
     private:
     int data; //to simplify, we are using only one piece of data
